@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Cafe Login</title>
+    <!----insert style.css file inside index.html---->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" type = "text/css" href = "./style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?id=37211&amp;format=png&amp;size=96&amp;name=icons8-cafe-96.png&amp;fromSite=true">
+</head>
+<body>
+    <div id = "frm" style="background-image:url('./food.svg')">
+        <h1><text style="font-family:Courier New;">Login<text style="color:white">_</text></text></h1>
+        <br>
+        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">
+            <center><table style="width:100%;"><tr><th style="text-align:left">
+                <label> User:</label></th><td>
+                <input type = "text" id ="user" name  = "user" /></td></tr>
+                <tr><th style="text-align:left">
+                <label> Password: </label></th><td>
+                <input type = "password" id ="pass" name  = "pass" /></td></tr>
+                <tr><td></td><td style = "align:right;vertical-align:bottom;">
+                  <br><br>
+                <input type =  "submit" id = "btn" value = "Go" /></td></tr></table></center>
+        </form>
+    </div>
+    <!----validation for empty field---->
+    <script>
+            function validation()
+            {
+                var id=document.f1.user.value;
+                var ps=document.f1.pass.value;
+                if(id.length=="" && ps.length=="") {
+                    alert("User Name and Password fields are empty");
+                    return false;
+                }
+                else
+                {
+                    if(id.length=="") {
+                        alert("User Name is empty");
+                        return false;
+                    }
+                    if (ps.length=="") {
+                    alert("Password field is empty");
+                    return false;
+                    }
+                }
+            }
+        </script>
+</body>
+</html>

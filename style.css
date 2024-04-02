@@ -1,0 +1,26 @@
+html {
+  background: url(https://s2.loli.net/2023/12/29/cLfltERKP9XhpGU.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:Monospace;
+}
+
+#frm{
+    width:fit-content;
+    height: fit-content;
+    border-radius: 2%;
+    margin: 120px auto;
+    background: white;
+    background-color: rgb(255 255 255 / 80%);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+}
+#btn{
+    color: #fff;
+    background: #000000;
+    padding: 7px;
+    margin-left: 70%;
+    box-shadow: none;
+}
