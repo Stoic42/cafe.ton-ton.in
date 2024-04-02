@@ -1,13 +1,11 @@
 <!-- saved from url=(0024)http://cafe.ton-ton.in/ -->
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>校园驿站||Mug and Mentor</title>
 <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?id=37211&amp;format=png&amp;size=96&amp;name=icons8-cafe-96.png&amp;fromSite=true">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="D:\Users\Lancelot\Desktop\css\coffee\w3.css">
-<link rel="stylesheet" href="D:\Users\Lancelot\Desktop\css\coffee\w3.css">
+<link rel="stylesheet" href="./cafe_files/w3.css">
+<link rel="stylesheet" href="./cafe_files/css">
 <style>
 * {
     margin: 0;
@@ -15,6 +13,7 @@
           }
 body, html {
   height: 100%;
+  font-family: "Inconsolata", sans-serif;
 }
 
 .bgimg {
@@ -26,21 +25,7 @@ body, html {
 
 .menu {
   display: none;
-} 
-.uplist{
-  /* position: fixed; */
-  /* top: 0px; */
-} 
-/* .catdroplist{
-            display: none;
 }
-.catslist{
-  display: block;
-}
-.catslist:hover .catdroplist{
-            display: block;
-        } */
-
 .shell{
   display: flex;
   justify-content: center;
@@ -87,42 +72,9 @@ ul,a{
 
 </style>
 </head>
-<body data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="" background-color="#452d23">
+<body data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="">
 
 <!-- Links (sit on top) -->
-<!-- <div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3" style = "width:23%">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
-    </div>
-    <div class="w3-col s3" style = "width:23%">
-      <a href="#menu" class="w3-button w3-block w3-black">MEMU</a>
-    </div>
-    <div class="w3-col s3" style = "width:23%">
-      <li class="catslist"><a href="#cats" class="w3-button w3-block w3-black">CATS</a>
-      <ul class="catdroplist">
-      <li><a href="http://">cat1</a>
-      <li><a href="http://">cat2</a>
-      <li><a href="http://">cat3</a>
-      <li><a href="http://">cat4</a>                                                    
-      <li><a href="http://">cat5</a>
-      </ul>
-    </div>
-    <div class="w3-col s3" style = "width:23%">
-      <li class="catslist"><a href="#activity" class="w3-button w3-block w3-black">ACTIVITY</a>
-        <ul class="catdroplist">
-          <li><a href="http://">cat1</a>
-          <li><a href="http://">cat2</a>
-          <li><a href="http://">cat3</a>
-          <li><a href="http://">cat4</a>
-          <li><a href="http://">cat5</a>
-          </ul>
-    </div>
-    <div class="w3-col s3" style = "width:8%">
-      <a href="./zh.php" class="w3-button w3-block w3-black" >中文</a>
-    </div>
-  </div>
-</div> -->
 
 <ul class="uplist shell">
   <li class="list">
@@ -327,16 +279,6 @@ ul,a{
     <img loading="lazy" src="https://s2.loli.net/2023/12/29/cLfltERKP9XhpGU.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
   </div>
 </div>
-<!-- About Cats Waiting for Work-->
-
-
-
-
-
-
-
-
-
 
 <!-- Contact/Area Container -->
 <div class="w3-container" id="activity" style="padding-bottom:32px;">
