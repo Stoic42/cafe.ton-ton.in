@@ -6,8 +6,8 @@
 <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?id=37211&amp;format=png&amp;size=96&amp;name=icons8-cafe-96.png&amp;fromSite=true">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="D:\Users\Lancelot\Desktop\css\coffee\w3.css">
-<link rel="stylesheet" href="D:\Users\Lancelot\Desktop\css\coffee\w3.css">
+<link rel="stylesheet" href="./cafe_files/w3.css">
+<link rel="stylesheet" href="./cafe_files/w3.css">
 <style>
 * {
     margin: 0;
@@ -26,11 +26,11 @@ body, html {
 
 .menu {
   display: none;
-} 
+}
 .uplist{
   /* position: fixed; */
   /* top: 0px; */
-} 
+}
 /* .catdroplist{
             display: none;
 }
@@ -62,7 +62,7 @@ body, html {
   cursor: pointer;
 }
 
-      
+
 .list:hover{
   background-color: #cccccc;
 }
@@ -104,7 +104,7 @@ ul,a{
       <li><a href="http://">cat1</a>
       <li><a href="http://">cat2</a>
       <li><a href="http://">cat3</a>
-      <li><a href="http://">cat4</a>                                                    
+      <li><a href="http://">cat4</a>
       <li><a href="http://">cat5</a>
       </ul>
     </div>
