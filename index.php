@@ -5,7 +5,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./cafe_files/w3.css">
+<<<<<<< HEAD
 <link rel="stylesheet" href="./cafe_files/css">
+=======
+<link rel="stylesheet" href="./cafe_files/w3.css">
+>>>>>>> 43cec0b2d335ec841f7845e690d6b1ee38aee2b2
 <style>
 * {
     margin: 0;
@@ -25,6 +29,16 @@ body, html {
 
 .menu {
   display: none;
+<<<<<<< HEAD
+=======
+}
+.uplist{
+  /* position: fixed; */
+  /* top: 0px; */
+}
+/* .catdroplist{
+            display: none;
+>>>>>>> 43cec0b2d335ec841f7845e690d6b1ee38aee2b2
 }
 .shell{
   display: flex;
@@ -47,7 +61,7 @@ body, html {
   cursor: pointer;
 }
 
-      
+
 .list:hover{
   background-color: #cccccc;
 }
@@ -75,6 +89,42 @@ ul,a{
 <body data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="">
 
 <!-- Links (sit on top) -->
+<<<<<<< HEAD
+=======
+<!-- <div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3" style = "width:23%">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3" style = "width:23%">
+      <a href="#menu" class="w3-button w3-block w3-black">MEMU</a>
+    </div>
+    <div class="w3-col s3" style = "width:23%">
+      <li class="catslist"><a href="#cats" class="w3-button w3-block w3-black">CATS</a>
+      <ul class="catdroplist">
+      <li><a href="http://">cat1</a>
+      <li><a href="http://">cat2</a>
+      <li><a href="http://">cat3</a>
+      <li><a href="http://">cat4</a>
+      <li><a href="http://">cat5</a>
+      </ul>
+    </div>
+    <div class="w3-col s3" style = "width:23%">
+      <li class="catslist"><a href="#activity" class="w3-button w3-block w3-black">ACTIVITY</a>
+        <ul class="catdroplist">
+          <li><a href="http://">cat1</a>
+          <li><a href="http://">cat2</a>
+          <li><a href="http://">cat3</a>
+          <li><a href="http://">cat4</a>
+          <li><a href="http://">cat5</a>
+          </ul>
+    </div>
+    <div class="w3-col s3" style = "width:8%">
+      <a href="./zh.php" class="w3-button w3-block w3-black" >中文</a>
+    </div>
+  </div>
+</div> -->
+>>>>>>> 43cec0b2d335ec841f7845e690d6b1ee38aee2b2
 
 <ul class="uplist shell">
   <li class="list">
